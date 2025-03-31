@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+.main {
+  background-image: url("assets/bg.jpg");
+  height: 70vh;
+  position: relative;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: max(1200px, 100vw);
+}
+
+.main .box {
+  height: 70vh;
+  width: 100%;
+  opacity: 0.69;
+  position: absolute;
+  top: 0%;
+  background-color: black;
+}
+
+nav {
+  display: flex;
+  max-width: 78vw;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+}
+
+nav img {
+  color: #e50914;
+  width: 148px;
+  position: relative;
+  z-index: 10;
+}
+
+nav button {
+  z-index: 10;
+  position: relative;
+}
+
+.hero {
+  font-family: 'Martel Sans', sans-serif;
+  height: calc(100% - 100px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  position: relative;
+  gap: 23px;
+  padding: 0 30px;
+}
+
+.hero>:nth-child(1) {
+  font-size: 32px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.hero> :nth-child(2) {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.hero> :nth-child(3) {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.separation {
+  height: 7px;
+  background-color: rgb(46, 44, 44);
+  position: relative;
+  z-index: 20;
+}
+
+.btn {
+  padding: 3px 8px;
+  font-weight: 500;
+  background-color: rgb(248, 243, 243, 0.021);
+  color: white;
+  border-radius: 3px;
+  border: 1px solid #9d9b9b;
+  cursor: pointer;
+}
+
+.hero-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.main input {
+  padding: 7px 101px 8px 14px;
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 4px;
+  background-color: rgba(23, 23, 23, 0.7);
+  border: 1px rgba(246, 246, 238, 0.1);
+  color: white;
+
+}
+
+.btn-red {
+  background-color: #e50914;
+  color: white;
+  padding: 3px 24px;
+  font-size: 18px;
+  border-radius: 4px;
+  font-weight: 500;
+  border-color: transparent;
+  ;
+}
+
+.btn-red-sm {
+  background-color: #e50914;
+  color: white;
+  border-radius: 3px;
+  border-color: transparent;
+
+}
+
+.first-section {
+  display: flex;
+  max-width: 71vw;
+  margin: auto;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 1300px) {
+  .first-section {
+    flex-wrap: wrap;
+  }
+}
+
+.secImg {
+  position: relative;
+}
+
+.secImg img {
+  width: 410px;
+  position: relative;
+  z-index: 10;
+}
+
+.secImg video {
+  position: absolute;
+  top: 92px;
+  right: 40px;
+  width: 320px;
+
+}
+
+.secImg1 {
+  position: relative;
+}
+
+.secImg1 img {
+  width: 410px;
+  position: relative;
+  z-index: 10;
+}
+
+.secImg1 video {
+  position: absolute;
+  top: 85px;
+  right: 40px;
+  width: 350px;
+
+}
+
+
+section.first-section>div {
+  display: flex;
+  flex-direction: column;
+  padding: 34px 0;
+}
+
+
+section.first-section>div :nth-child(1) {
+  font-size: 42px;
+  font-weight: bold;
+
+}
+
+section.first-section>div :nth-child(2) {
+  font-size: 22px;
+  font-weight: 400;
+
+}
+
+.faq h2 {
+  text-align: center;
+  font-size: 42px;
+
+}
+
+.faq {
+  background-color: black;
+  color: white;
+  padding: 30px;
+  font-size: 22px;
+}
+
+.faqbox {
+  display: flex;
+  justify-content: space-between;
+  background-color: #242424;
+  padding: 20px;
+  max-width: 65vw;
+  margin: 12px auto;
+  cursor: pointer;
+}
+
+.faqbox:hover {
+  background-color: #363636;
+}
+
+footer {
+  color: #848484;
+  max-width: 60vw;
+  margin: auto;
+  padding: 14px;
+}
+
+footer a {
+  font-size: 14px;
+  color: #848484;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  /* color: white; */
+
+}
+
+footer .questions {
+  padding: 34px 0;
+}
+
+.footer-item {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
+
+.Net {
+  font-size: 14px;
+}
