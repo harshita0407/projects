@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zepto Clone</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+  <link rel="website icon" type="png"
+    href="https://image.winudf.com/v2/image1/Y29tLnplcHRvY29uc3VtZXJhcHBfaWNvbl8xNjY2OTIxNjc5XzA1OA/icon.png?w=340&fakeurl=1">
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <div>
+  <header>
+
+    <div class="logo">
+      <img src="logo.svg" alt="logo" />
+    </div>
+    <div class="ss">
+      <button class="btn"><img src="ss.svg" alt="super saver" /></button>
+    </div>
+    <div class="location">
+      <label for="location">Select Location</label>
+      <select id="location" class="custom-select">
+        <option value="1"></option>
+      </select>
+    </div>
+    <!-- <div class="select-location">
+      Select Location
+      <svg width="4.7" height="8" viewBox="0 0 16 27" xmlns="http://www.w3.org/2000/svg" class="zZ3yfL"><path d="M16 23.207L6.11 13.161 16 3.093 12.955 0 0 13.161l12.955 13.161z" fill="#fff" class="_2gTTdy"></path></svg>
+  </div> -->
+    <div class="search-bar">
+      <input type="text" placeholder="Search for products">
+      <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+    </div>
+    <div class="nav">
+      <ul>
+
+        <li><i class="fa-regular fa-circle-user" style="color: #0d0d0c;"></i>
+          <span>Login</span>
+        </li>
+        <li><i class="fa fa-cart-plus" aria-hidden="true" style="color: #0d0d0c;"></i>
+          <span>Cart</span>
+        </li>
+
+      </ul>
+    </div>
+  </header>
+</div>
+  <!-- main  -->
+  <section>
+    <div class="main">
+      <img src="https://cdn.zeptonow.com/production/tr:w-1280,ar-3840-705,pr-true,f-auto,q-80/inventory/banner/4ea3de05-f469-4df2-9548-db9c9863dfdf.png" 
+       alt="banner" width="100%" height="auto">
+    </div>
+    </div>
+  </section>
+  <section>
+    <div class="Coff">
+      <h4>Coffee Lovers</h4>
+      <button><p>
+        See All 
+      </p>
+      <svg fill="none" height="16" viewBox="0 0 17 16" width="17" xmlns="http://www.w3.org/2000/svg" style="height: 1rem; width: 1rem; color: rgb(250, 55, 120);">
+        <path d="M7 4.5L10.5 8L7 11.5" stroke="#FA3778" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+      </path></svg></button>
+     </div>
+  </section>
+  <section>
+    <div class="slides">
+      <!-- <div><img src="https://cdn.zeptonow.com/production/tr:w-350,ar-2400-2400,pr-true,f-auto,q-80/cms/product_variant/13aecc48-e0ff-48d1-9d7e-808acceab24e.jpeg" 
+        alt="01"  style="max-width: 150px;border-radius: 10px;"/>
+      </div> -->
+      <div class="slider" >
+       
+        <div class="slide">
+            <img src="https://cdn.zeptonow.com/production/tr:w-350,ar-2400-2400,pr-true,f-auto,q-80/cms/product_variant/13aecc48-e0ff-48d1-9d7e-808acceab24e.jpeg">
+            <!-- <img class="off" src="https://cdn.zeptonow.com/web-static-assets-prod/artifacts/12.59.0/images/offer-tag.svg"
+            alt="" />
+            <img class="free" src="https://cdn.zeptonow.com/production/tr:w-120,ar-292-46,pr-true,f-auto,q-80/inventory/product/eb337250-2ec6-4535-bd64-eed2a6407293.png"
+            alt=""/>-->
+            <h5 class="product-name">Vietnamese Cold Coffee</h5>
+            <p class="ml">450ml</p>
+            <p class="price">₹239 <del>₹319</del></p>
+            <button>Add to Cart</button>
+        </div>
+        
+        <div class="slide">
+            <img src="https://cdn.zeptonow.com/production/tr:w-350,ar-4615-4615,pr-true,f-auto,q-80/cms/product_variant/3d3c7b5f-5c45-477d-9706-0ef2cf64d7e0.jpeg" alt="Spanish Coffee">
+            <h5>Spanish Coffee</h5>
+            <p class="ml">350ml</p>
+            <p class="price">₹219 <del>₹269</del></p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="slide">
+            <img src="https://cdn.zeptonow.com/production/tr:w-350,ar-4615-4615,pr-true,f-auto,q-80/cms/product_variant/d102ddef-501c-42e4-83ce-8a3d6c972558.jpeg" alt="Americano">
+            <h5>Americano</h5>
+            <p class="ml">250ml</p>
+            <p class="price">₹179 <del>₹239</del></p>
+            <button>Add to Cart</button>
+        </div>
+<div class="slide">
+            <img src="https://cdn.zeptonow.com/production/tr:w-350,ar-5198-5198,pr-true,f-auto,q-80/cms/product_variant/92790524-02e7-4ca3-8aee-122d2ddc655e.jpeg" alt="Filter Coffee">
+            <h5>Filter Coffee</h5>
+            <p class="ml">250ml</p>
+            <p class="price">₹159 <del>₹204</del></p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="slide">
+            <img src="https://cdn.zeptonow.com/production/tr:w-350,ar-2400-2400,pr-true,f-auto,q-80/cms/product_variant/d72f520d-1907-42df-801c-ecd6684106ac.jpeg" alt="Hazelnut Cold Coffee">
+            <h5>classic Cold Coffee</h5>
+            <p class="ml">350ml</p>
+            <p class="price">₹209 <del>₹269</del></p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="slide">
+          <img src="https://cdn.zeptonow.com/production/tr:w-350,ar-2400-2400,pr-true,f-auto,q-80/cms/product_variant/18d502d4-00ba-4533-99e3-ae817db3f361.jpeg">
+          <h5>Classic Cold Coffee</h5>
+          <p class="ml">350ml</p>
+          <p class="price">₹209 <del>₹269</del></p>
+          <button>Add to Cart</button>
+      </div>
+
+      <div class="slide">
+        <img src="https://cdn.zeptonow.com/production/tr:w-350,ar-2400-2400,pr-true,f-auto,q-80/cms/product_variant/4e44890d-d561-4972-b190-45b0324acce8.jpeg" alt="Hazelnut Cold Coffee">
+        <h5>Iced Americano</h5>
+        <p class="ml">450ml</p>
+        <p class="price">₹179 <del>₹239</del></p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="slide">
+      <img src="https://cdn.zeptonow.com/production/tr:w-350,ar-4523-4523,pr-true,f-auto,q-80/cms/product_variant/4141ea67-1e91-4b53-99f7-ed0dcea226e9.jpeg">
+      <h5>Hazelnut Cappuccino</h5>
+      <p class="ml">250ml</p>
+      <p class="price">₹209 <del>₹269</del></p>
+      <button>Add to Cart</button>
+  </div>
+
+  <div class="slide">
+    <img src="https://cdn.zeptonow.com/production/tr:w-350,ar-2400-2400,pr-true,f-auto,q-80/cms/product_variant/27b6109e-514e-44d0-8245-ada18e023441.jpeg" alt="Hazelnut Cold Coffee">
+    <h5>Cappuccino</h5>
+    <p class="ml">250ml</p>
+    <p class="price">₹199 <del>₹244</del></p>
+    <button>Add to Cart</button>
+</div>
+
+<div class="slide">
+  <img src="https://cdn.zeptonow.com/production/tr:w-350,ar-4523-4523,pr-true,f-auto,q-80/cms/product_variant/4141ea67-1e91-4b53-99f7-ed0dcea226e9.jpeg">
+  <h5>Latte</h5>
+  <p class="ml">250ml</p>
+  <p class="price">₹180 <del>₹244</del></p>
+  <button>Add to Cart</button>
+</div>
+
+
+    </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="Elevate">
+      <h4>Elevate Yourself</h4>
+      <button><p>
+        See All 
+      </p>
+      <svg fill="none" height="16" viewBox="0 0 17 16" width="17" xmlns="http://www.w3.org/2000/svg" style="height: 1rem; width: 1rem; color: rgb(250, 55, 120);">
+        <path d="M7 4.5L10.5 8L7 11.5" stroke="#FA3778" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+      </path></svg></button>
+     </div>
+  </section>
+  <section>
+    <div class="slides1">
+      <div class="slider1" >
+       
+       
+
+        <div class="slide1">
+            <img src="https://cdn.zeptonow.com/production/tr:w-350,ar-1200-1200,pr-true,f-auto,q-80/inventory/product/f2efcf91-26c3-44bd-81ca-b793d214b532-/tmp/20230508-0747251.jpeg">
+            <h5 class="product-name">Portronics Power Plate Extension Board - Over Voltage Protection | 8 Sockets | 3 Mtr</h5>
+            <p class="ml1">1 piece</p>
+            <p class="price1">₹749 <del>₹1999</del></p>
+            <button>Add to Cart</button>
+        </div>
+<div class="slide1">
+            <img src="https://cdn.zeptonow.com/production/tr:w-350,ar-1000-1000,pr-true,f-auto,q-80/inventory/product/c0b348d8-9b48-4878-ac72-914ebb1e11a6-/tmp/20230918-1639481.jpeg">
+            <h5 class="product-name">Lifelong Llm270 Head and Body Massager - Full Body Pain Relief |  Deep Tissue Massager</h5>
+            <p class="ml1">1 piece</p>
+            <p class="price1">₹650 <del>₹2300</del></p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="slide1">
+            <img src="https://cdn.zeptonow.com/production/tr:w-350,ar-1000-1000,pr-true,f-auto,q-80/cms/product_variant/5f7450f8-9059-4677-9b07-ae52d8e78f9a.jpeg">
+            <h5 class="product-name">Portronics Konnect B+ POR 1392 8 Pin USB Cable - Black | Nylon Braided</h5>
+            <p class="ml1">1 piece</p>
+            <p class="price1">₹199 <del>₹699</del></p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="slide1">
+          <img src="https://cdn.zeptonow.com/production/tr:w-350,ar-1000-1000,pr-true,f-auto,q-80/cms/product_variant/9bbb0597-3140-45df-aa35-688dd59e831a.jpeg">
+          <h5 class="product-name">Portronics Konnect B Type C Cable - Black | Supports up to 65W Fast Charging | Compatible with USB Type C Devices</h5>
+          <p class="ml1">1 piece</p>
+          <p class="price1">₹185 <del>₹599</del></p>
+          <button>Add to Cart</button>
+      </div>
+
+      <div class="slide1">
+        <img src="https://cdn.zeptonow.com/production/tr:w-350,ar-1000-1000,pr-true,f-auto,q-80/cms/product_variant/440d84da-5133-4930-93b6-8076ed6924ff.jpeg">
+        <h5 class="product-name">Portronics C-Konnect 3-In-1 USB Type C Adapter - White | Type-C + USB + HDMI</h5>
+        <p class="ml1">1 piece</p>
+        <p class="price1">₹899<del>₹2499</del></p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="slide1">
+      <img src="https://cdn.zeptonow.com/production/tr:w-350,ar-1000-1000,pr-true,f-auto,q-80/cms/product_variant/a9d6c7fe-65c6-44e7-98c1-fc1ac41fa29a.jpeg">
+      <h5 class="product-name">Portronics Konnect A Trio 3-In-1 USB Cable - Black | Braided and High-Speed | Fast Charging</h5>
+      <p class="ml1">1 piece</p>
+      <p class="price1">₹299 <del>₹899</del></p>
+      <button>Add to Cart</button>
+  </div>
+
+  <div class="slide1">
+    <img src="https://cdn.zeptonow.com/production/tr:w-350,ar-1000-1000,pr-true,f-auto,q-80/cms/product_variant/03127f7b-ff2c-4d06-9dc4-974133a72fdf.jpeg">
+    <h5 class="product-name">Portronics Konnect B Micro USB Cable - Black | Braided &  Tangle-Free | Fast Charging</h5>
+    <p class="ml1">1 piece</p>
+    <p class="price1">₹108 <del>₹499</del></p>
+    <button>Add to Cart</button>
+</div>
+
+<div class="slide1">
+  <img src="https://cdn.zeptonow.com/production/tr:w-350,ar-1000-1000,pr-true,f-auto,q-80/cms/product_variant/f279c1c7-a764-4889-9012-728a4ef3f3f6.jpeg">
+  <h5 class="product-name">Lifelong Llm09 Mini Head And Body Massager, Beige And Brown</h5>
+  <p class="ml1">1 piece</p>
+  <p class="price1">₹398 <del>₹1350</del></p>
+  <button>Add to Cart</button>
+</div>
+<div class="slide1">
+  <img src="https://cdn.zeptonow.com/production/tr:w-350,ar-1500-1500,pr-true,f-auto,q-80/cms/product_variant/0431f9e4-b3f7-489b-a3bc-fe7a99a2a260.jpg">
+  <h5 class="product-name">Duracell Type-C To Type- C Quick Sync & Charge Cable - Black | Fast Charging</h5>
+  <p class="ml1">1 piece</p>
+  <p class="price1">₹398 <del>₹1499</del></p>
+  <button>Add to Cart</button>
+</div>
+
+<div class="slide1">
+  <img src="https://cdn.zeptonow.com/production/tr:w-350,ar-1000-1000,pr-true,f-auto,q-80/cms/product_variant/9b46a2ae-be71-42d1-95f2-ad71f5e32de7.jpeg">
+  <h5 class="product-name">Nu Republic Usb Type C Cable 1 M Blaze Supersonic 65W Type-C To Type-C Fast Charge Cable</h5>
+  <p class="ml1">1 piece</p>
+  <p class="price1">₹199 <del>₹1299</del></p>
+  <button>Add to Cart</button>
+</div>
+
+</div>
+</div>
+</section>
+
+<section>
+  <div class="store">
+    <h4>New In Store</h4>
+   </div>
+</section>
+<section class="section-1">
+  <div class="section-1-container">
+      <div class="section-1-item">
+          <img src="https://cdn.zeptonow.com/production/tr:w-336,ar-336-496,pr-true,f-auto,q-80/inventory/banner/36505655-0b0e-4b7c-abdc-92c7a230c267.png" alt="">
+      </div>
+
+      <div class="section-1-item">
+          <img src="https://cdn.zeptonow.com/production/tr:w-336,ar-336-496,pr-true,f-auto,q-80/inventory/banner/f87c5de9-c5d1-4bc4-8c5f-fd8342f8dde2.png" alt="">
+      </div>
+
+      <div class="section-1-item">
+          <img src="https://cdn.zeptonow.com/production/tr:w-336,ar-336-496,pr-true,f-auto,q-80/inventory/banner/b230aa9e-39d2-48cf-b70b-62b7345af476.png" alt="">
+    </div>
+
+      <div class="section-1-item">
+          <img src="https://cdn.zeptonow.com/production/tr:w-336,ar-336-496,pr-true,f-auto,q-80/inventory/banner/690d68be-0302-4138-b48a-b2d2141c092a.png" alt="">
+         </div>
+      <div class="section-1-item">
+          <img src="https://cdn.zeptonow.com/production/tr:w-336,ar-336-496,pr-true,f-auto,q-80/inventory/banner/be289cce-726b-4263-82a3-01c04168467a.png" alt="">
+         
+      </div>
+      <div class="section-1-item">
+          <img src="https://cdn.zeptonow.com/production/tr:w-336,ar-336-496,pr-true,f-auto,q-80/inventory/banner/22ecab4a-1793-4b4c-a125-ba3dd2869398.png" alt="">
+          
+      </div>
+      <div class="section-1-item">
+          <img src="https://cdn.zeptonow.com/production/tr:w-336,ar-336-496,pr-true,f-auto,q-80/inventory/banner/5c143c45-988e-4eb3-a7f8-90245c6d5e12.png" alt="">
+         
+      </div>
+      <div class="section-1-item">
+          <img src="https://cdn.zeptonow.com/production/tr:w-336,ar-336-496,pr-true,f-auto,q-80/inventory/banner/2a1050dd-b821-480a-8661-205fbeecaff9.png" alt="">
+         
+      </div>
+      <div class="section-1-item">
+          <img src="https://cdn.zeptonow.com/production/tr:w-336,ar-336-496,pr-true,f-auto,q-80/inventory/banner/86abb79d-0f88-47c7-814a-4f363d6f780f.png" alt="">
+         
+      </div>
+      <div class="section-1-item">
+        <img src="https://cdn.zeptonow.com/production/tr:w-336,ar-336-496,pr-true,f-auto,q-80/inventory/banner/8a2b7d4f-8e95-4f2e-9007-e65cdaafde88.png" alt="">
+       
+    </div>
+    <div class="section-1-item">
+      <img src="https://cdn.zeptonow.com/production/tr:w-336,ar-336-496,pr-true,f-auto,q-80/inventory/banner/11cbcab8-f25e-49dd-92ba-62de2f8ad7b9.png" alt="">
+    
+  </div>
+  <div class="section-1-item">
+    <img src="https://cdn.zeptonow.com/production/tr:w-336,ar-336-496,pr-true,f-auto,q-80/inventory/banner/609cfe73-8f8d-4700-bb5b-afd4c0851b7e.png" alt="">
+   
+</div>
+<div class="section-1-item">
+  <img src="https://cdn.zeptonow.com/production/tr:w-336,ar-336-496,pr-true,f-auto,q-80/inventory/banner/ef68d97b-5786-434b-a554-562be8b5877e.png" alt="">
+ 
+</div>
+  </div>
+</section>
+
+
+  <section>
+    <div class="home">
+      <h4>Get Your Home Needs</h4>
+      <button><p>
+        See All 
+      </p>
+      <svg fill="none" height="16" viewBox="0 0 17 16" width="17" xmlns="http://www.w3.org/2000/svg" style="height: 1rem; width: 1rem; color: rgb(250, 55, 120);">
+        <path d="M7 4.5L10.5 8L7 11.5" stroke="#FA3778" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+      </path></svg></button>
+     </div>
+  </section>
+  <section>
+    <div class="slides2">
+      <div class="slider2" >
+       <div class="slide2">
+            <img src="https://cdn.zeptonow.com/production/tr:w-350,ar-1200-1200,pr-true,f-auto,q-80/cms/product_variant/2ad2221e-463e-4d26-a3ba-68d97a2b5c9f.jpg">
+            <h5 class="product-name">Portronics 1.5M Cord Length HDMI Cable(Black)</h5>
+            <p class="ml2">1 piece</p>
+            <p class="price2">₹199 <del>₹499</del></p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="slide2">
+            <img src="https://cdn.zeptonow.com/production/tr:w-350,ar-727-712,pr-true,f-auto,q-80/cms/product_variant/d01ed994-a2fe-4086-a250-bdbb08fdafc0.jpg">
+            <h5 class="product-name">Duracell 20000 mAh Power Bank - 22.5 W | Fast Charging</h5>
+            <p class="ml2">1 piece</p>
+            <p class="price2">₹2998 <del>₹3499</del></p>
+            <button>Add to Cart</button>
+        </div>
+
+        
+
+        <div class="slide2">
+          <img src="https://cdn.zeptonow.com/production/tr:w-350,ar-4167-4167,pr-true,f-auto,q-80/cms/product_variant/cc42ce5b-2d50-48fe-8d3f-c105c28b66e7.jpeg">
+          <h5 class="product-name">Ambrane 20000mAh Powerbank, 22.5W Fast Charging, Triple Output + Type C Cable (Stylo 20, Black)</h5>
+          <p class="ml2">1 piece</p>
+          <p class="price2">₹1346 <del>₹2699</del></p>
+          <button>Add to Cart</button>
+      </div>
+
+      <div class="slide2">
+        <img src="https://cdn.zeptonow.com/production/tr:w-350,ar-1000-1000,pr-true,f-auto,q-80/cms/product_variant/257afb45-5b44-47f8-9d67-3ac02fa9c5af.jpeg">
+        <h5 class="product-name">Portronics 1.5M Cord Length HDMI Cable(Black)</h5>
+        <p class="ml2">1 piece</p>
+        <p class="price2">₹199<del>₹499</del></p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="slide2">
+      <img src="https://cdn.zeptonow.com/production/tr:w-350,ar-1000-1000,pr-true,f-auto,q-80/cms/product_variant/a9d6c7fe-65c6-44e7-98c1-fc1ac41fa29a.jpeg">
+      <h5 class="product-name">Portronics Konnect A Trio 3-In-1 USB Cable - Black | Braided and High-Speed | Fast Chargingv</h5>
+      <p class="ml2">1 piece</p>
+      <p class="price2">₹299 <del>₹899</del></p>
+      <button>Add to Cart</button>
+  </div>
+
+  <div class="slide2">
+  <img src="https://cdn.zeptonow.com/production/tr:w-350,ar-1000-1000,pr-true,f-auto,q-80/cms/product_variant/9bbb0597-3140-45df-aa35-688dd59e831a.jpeg">
+  <h5 class="product-name">Portronics Konnect B Type C Cable - Black | Supports up to 65W Fast Charging | Compatible with USB Type C Devices</h5>
+  <p class="ml2">1 piece</p>
+  <p class="price2">₹139 <del>₹599</del></p>
+  <button>Add to Cart</button>
+  </div>
+
+<div class="slide2">
+  <img src="https://cdn.zeptonow.com/production/tr:w-350,ar-1000-1000,pr-true,f-auto,q-80/cms/product_variant/440d84da-5133-4930-93b6-8076ed6924ff.jpeg">
+  <h5 class="product-name">Duracell Type-C To Type- C Quick Sync & Charge Cable - Black | Fast Charging</h5>
+  <p class="ml2">1 piece</p>
+  <p class="price2">₹398 <del>₹1499</del></p>
+  <button>Add to Cart</button>
+</div>
+
+<div class="slide2">
+  <img src="https://cdn.zeptonow.com/production/tr:w-350,ar-1000-1000,pr-true,f-auto,q-80/cms/product_variant/03127f7b-ff2c-4d06-9dc4-974133a72fdf.jpeg">
+  <h5 class="product-name">Portronics C-Konnect 3-In-1 USB Type C Adapter - White | Type-C + USB + HDMI</h5>
+  <p class="ml2">1 piece</p>
+  <p class="price2">₹899 <del>₹2499</del></p>
+  <button>Add to Cart</button>
+</div>
+
+<div class="slide2">
+  <img src="https://cdn.zeptonow.com/production/tr:w-350,ar-1000-1000,pr-true,f-auto,q-80/cms/product_variant/5f7450f8-9059-4677-9b07-ae52d8e78f9a.jpeg">
+  <h5 class="product-name">Portronics Konnect B Micro USB Cable - Black | Braided & Tangle-Free | Fast Charging</h5>
+  <p class="ml2">1 piece</p>
+  <p class="price2">₹99 <del>₹99</del></p>
+  <button>Add to Cart</button>
+</div>
+
+<div class="slide2">
+  <img src="https://cdn.zeptonow.com/production/tr:w-350,ar-1500-1500,pr-true,f-auto,q-80/cms/product_variant/0431f9e4-b3f7-489b-a3bc-fe7a99a2a260.jpg">
+  <h5 class="product-name">Duracell Type-C To Type- C Quick Sync & Charge Cable - Black | Fast Charging</h5>
+  <p class="ml2">1 piece</p>
+  <p class="price2">₹398<del>₹1499</del></p>
+  <button>Add to Cart</button>
+</div>
+</div>
+    </div>
+  </section>
+
+  <section>
+    <div class="Meal">
+      <h4>Wholesome Meals</h4>
+      <button><p>
+        See All 
+      </p>
+      <svg fill="none" height="16" viewBox="0 0 17 16" width="17" xmlns="http://www.w3.org/2000/svg" style="height: 1rem; width: 1rem; color: rgb(250, 55, 120);">
+        <path d="M7 4.5L10.5 8L7 11.5" stroke="#FA3778" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+      </path></svg></button>
+     </div>
+  </section>
+  <section>
+    <div class="slides3">
+      <div class="slider3" >
+
+        <div class="slide3">
+          <img src="https://cdn.zeptonow.com/production/tr:w-350,ar-2400-2400,pr-true,f-auto,q-80/cms/product_variant/da3bf048-ddb0-461f-9ab2-b267475da0d7.jpeg">
+          <h5>Chole Khulche</h5>
+          <p class="ml3">450g</p>
+          <p class="price3">₹229 <del>₹299</del></p>
+          <button>Add to Cart</button>
+      </div>
+
+       <div class="slide3">
+            <img src="https://cdn.zeptonow.com/production/tr:w-350,ar-3396-3396,pr-true,f-auto,q-80/cms/product_variant/f5d5ad7d-f9a4-4765-9e20-79f1c557c567.jpeg">
+            <h5>Dal Makhani</h5>
+            <p class="ml3">250g</p>
+            <p class="price3">₹179 <del>₹219</del></p>
+            <button>Add to Cart</button>
+        </div>
+
+
+
+        <div class="slide3">
+          <img src="https://cdn.zeptonow.com/production/tr:w-350,ar-4487-4487,pr-true,f-auto,q-80/cms/product_variant/0320dafe-0820-44c7-a59a-7aef807c3af1.jpeg">
+          <h5 class="product-name">Wheat Chapati-Pack of 3</h5>
+          <p class="ml3">pack of 3</p>
+          <p class="price3">₹74</p>
+          <button>Add to Cart</button>
+
+      </div>
+      <div class="slide3">
+        <img src="https://cdn.zeptonow.com/production/tr:w-350,ar-3669-3669,pr-true,f-auto,q-80/cms/product_variant/668eaf44-3f3b-4ec3-a855-238a19a2f79e.jpeg">
+        <h5>Paneer Tikka Masala</h5>
+        <p class="ml3">250g</p>
+        <p class="price3">₹219 <del>₹254</del></p>
+        <button>Add to Cart</button>
+    </div>
+      <div class="slide3">
+        <img src="https://cdn.zeptonow.com/production/tr:w-350,ar-1058-1058,pr-true,f-auto,q-80/cms/product_variant/02842483-d837-4562-8b6d-6a312f4b8e97.jpeg">
+        <h5> Rajma Masala</h5>
+        <p class="ml3">250g</p>
+        <p class="price3">₹179 <del>₹219</del></p>
+        <button>Add to Cart</button>
+    </div>
+     
+
+    <div class="slide3">
+      <img src="https://cdn.zeptonow.com/production/tr:w-350,ar-3670-3670,pr-true,f-auto,q-80/cms/product_variant/d042d1ce-33d9-43d5-8d0e-db255ad56526.jpeg">
+      <h5> Butter Chicken</h5>
+      <p class="ml3">261g</p>
+      <p class="price3">₹239 <del>₹319</del></p>
+      <button>Add to Cart</button>
+  </div>
+  
+  <div class="slide3">
+    <img src="https://cdn.zeptonow.com/production/tr:w-350,ar-1058-1058,pr-true,f-auto,q-80/cms/product_variant/a9e16c85-de62-4714-ac98-d98507aec9c2.jpeg">
+    <h5>Chole</h5>
+    <p class="ml3">250g</p>
+    <p class="price3">₹179 <del>₹219</del></p>
+    <button>Add to Cart</button>
+</div>
+  <div class="slide3">
+    <img src="https://cdn.zeptonow.com/production/tr:w-350,ar-4579-4579,pr-true,f-auto,q-80/cms/product_variant/c64cab0a-4c25-40d3-87ea-964fb8533920.jpeg">
+    <h5 class="product-name">Tawa Plain Paratha-Pack of 2</h5>
+    <p class="ml3">2 piece</p>
+    <p class="price3">₹179</p>
+    <button>Add to Cart</button>
+</div>
+  <div class="slide3">
+    <img src="https://cdn.zeptonow.com/production/tr:w-350,ar-5198-5198,pr-true,f-auto,q-80/cms/product_variant/b9ca1227-3726-4c10-9b21-486af6078d17.jpeg">
+    <h5>Aloo Pyaz kulcha</h5>
+    <p class="ml3">2 Kulchas</p>
+    <p class="price3">₹185<del>₹256</del></p>
+    <button>Add to Cart</button>
+</div>
+  <div class="slide3">
+    <img src="https://cdn.zeptonow.com/production/tr:w-350,ar-3842-3842,pr-true,f-auto,q-80/cms/product_variant/59ec5fca-0645-4960-871b-de0d683152ac.jpeg">
+    <h5>Malai Chickken Tikka</h5>
+    <p class="ml3">6 piece</p>
+    <p class="price3">₹314<del>₹334</del></p>
+    <button>Add to Cart</button>
+</div>
+</div>
+</div>
+    </div>
+  </section>
+
+  <section>
+    <div class="newstore">
+      <h4>New In Store</h4>
+      <button><p>
+        See All 
+      </p>
+      <svg fill="none" height="16" viewBox="0 0 17 16" width="17" xmlns="http://www.w3.org/2000/svg" style="height: 1rem; width: 1rem; color: rgb(250, 55, 120);">
+        <path d="M7 4.5L10.5 8L7 11.5" stroke="#FA3778" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+      </path></svg></button>
+     </div>
+  </section>
+  <section>
+    <div class="slides4">
+      <div class="slider4" >
+       <div class="slide4">
+            <img src="https://cdn.zeptonow.com/production/tr:w-350,ar-1500-1500,pr-true,f-auto,q-80/cms/product_variant/65550f8a-f4c3-4d71-abd9-c1fde55b4619.jpg">
+            <h5 class="product-name">GUBB Multifunctional Organizer Makeup Travel Bag - Pink</h5>
+            <p class="ml4">1 piece</p>
+            <p class="price4">₹749 <del>₹1999</del></p>
+            <button>Add to Cart</button>
+        </div>
+<div class="slide4">
+            <img src="https://cdn.zeptonow.com/production/ik-seo/tr:w-1280,ar-1500-1500,pr-true,f-auto,q-80/cms/product_variant/6c6767b1-8840-46ce-a95b-e755c559b109/Trajectory-Travel-Polyester-Passport-and-Card-Holder-and-Wallet-Organiser-Case.jpeg">
+            <h5 class="product-name">Trajectory Travel Polyester Passport and Card Holder and Wallet Organiser Case</h5>
+            <p class="ml4">1 piece</p>
+            <p class="price4">₹649 <del>₹1200</del></p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="slide4">
+            <img src="https://cdn.zeptonow.com/production/tr:w-350,ar-1500-1500,pr-true,f-auto,q-80/cms/product_variant/68f68874-2238-474a-9acc-d4d9a273a52a.jpg">
+            <h5 class="product-name">AGARO 1200 Watts Professional Volumizer Hair Dryer,One Step Styler, Hot Air Blow Brush for Women</h5>
+            <p class="ml4">1 piece</p>
+            <p class="price4">₹1899 <del>₹3999</del></p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="slide4">
+          <img src="https://cdn.zeptonow.com/production/ik-seo/tr:w-1000,ar-1000-1000,pr-true,f-auto,q-80/cms/product_variant/2dc25cb8-67ec-498e-873e-a83d080455c6/Bombay-Shaving-Company-Power-Styler-OG-Beard-Trimmer-For-Men-2X-Fast-Charging-USB-Type-C.jpeg">
+          <h5 class="product-name">Bombay Shaving Company Power Styler OG Beard Trimmer For Men | 2X Fast Charging | USB Type C</h5>
+          <p class="ml4">1 piece</p>
+          <p class="price4">₹845 <del>₹1199</del></p>
+          <button>Add to Cart</button>
+      </div>
+
+      <div class="slide4">
+        <img src="https://cdn.zeptonow.com/production/tr:w-350,ar-1500-1500,pr-true,f-auto,q-80/cms/product_variant/77af7e13-0a1e-4011-9158-7cfb9714ce1d.jpg">
+        <h5 class="product-name">AGARO 2000 Watts Professional Hair Dryer with AC Motor, Concentrator, Diffuser,Comb,Hot and Cold Air</h5>
+        <p class="ml4">1 piece</p>
+        <p class="price4">₹1599<del>₹2595</del></p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="slide4">
+      <img src="https://cdn.zeptonow.com/production/tr:w-350,ar-1000-1000,pr-true,f-auto,q-80/cms/product_variant/2a4a8090-16d6-440b-80f4-86a843fccea6.jpeg">
+      <h5 class="product-name">Vega Trimmer For Men with 90 Mins Runtime Stainless Steel Blades, Black (Power Lite, VHTH-38)</h5>
+      <p class="ml4">1 piece</p>
+      <p class="price4">₹789 <del>₹1149</del></p>
+      <button>Add to Cart</button>
+  </div>
+
+  <div class="slide4">
+    <img src="https://cdn.zeptonow.com/production/tr:w-350,ar-1000-1000,pr-true,f-auto,q-80/cms/product_variant/39c9678b-a8e1-4684-9869-ecb015896231.jpeg">
+    <h5 class="product-name">Ambrane 20W Dual Output Fast Charger/Adapter With Qc & Pd Technology For Iphone Android & Other Devices Multi-Layers Protection (Raap H11White)</h5>
+    <p class="ml4">1 piece</p>
+    <p class="price4">₹399 <del>₹1299</del></p>
+    <button>Add to Cart</button>
+</div>
+
+<div class="slide4">
+  <img src="https://cdn.zeptonow.com/production/tr:w-350,ar-727-712,pr-true,f-auto,q-80/cms/product_variant/d01ed994-a2fe-4086-a250-bdbb08fdafc0.jpg">
+  <h5 class="product-name">Duracell 20000 mAh Power Bank - 22.5 W | Fast Charging</h5>
+  <p class="ml4">1 piece</p>
+  <p class="price4">₹2998 <del>₹3499</del></p>
+  <button>Add to Cart</button>
+</div>
+
+<div class="slide4">
+  <img src="https://cdn.zeptonow.com/production/tr:w-350,ar-1000-1000,pr-true,f-auto,q-80/cms/product_variant/63c2e42f-8f46-431c-8d8b-9de68e0bef2e.jpeg">
+  <h5 class="product-name">Vega Power Series P-1 Beard Trimmer For Men With 160 Mins Runtime & 40 Length (Green)</h5>
+  <p class="ml4">1 piece</p>
+  <p class="price4">₹898 <del>₹999</del></p>
+  <button>Add to Cart</button>
+</div>
+
+<div class="slide4">
+  <img src="https://cdn.zeptonow.com/production/ik-seo/tr:w-1280,ar-1500-1500,pr-true,f-auto,q-80/cms/product_variant/5d6bdbf5-b964-4504-8604-138a0fd7b74b/boAt-10000mAh-Power-Bank-w-22-5W-Fast-Charging-Smart-IC-Protection-PB300-Carbon-Black-.jpeg">
+  <h5 class="product-name">boAt 10000mAh Power Bank w/ 22.5W Fast Charging & Smart IC Protection - PB300 (Carbon Black)</h5>
+  <p class="ml4">1 piece</p>
+  <p class="price4">₹1199 <del>₹2999</del></p>
+  <button>Add to Cart</button>
+</div>
+</div>
+</div>
+</section>
+
+<!-- banners -->
+ 
+<section class="slider-container">
+  <div class="Hiw"><h3>How it Works</h3></div>
+  <div class="how-it-works">
+  <div class="card">
+      <img src="opentheapp.svg" alt="Open the app">
+      <h3>Open the app</h3>
+      <p>Choose from over 7000 products across groceries, fresh fruits & veggies, meat, pet care, beauty items & more.</p>
+  </div>
+  
+  <div class="card">
+      <img src="opentheorder.svg" alt="Place an order">
+      <h3>Place an order</h3>
+      <p>Add your favorite items to the cart & avail the best offers.</p>
+  </div>
+  
+  <div class="card">
+      <img src="delivery.svg" alt="Get free delivery">
+      <h3>Get free delivery</h3>
+      <p>Experience lightning-fast speed & get all your items delivered in 10 minutes.</p>
+  </div>
+  
+</div>
+
+</section>
+
+
+
+
+<section>
+  <div class="Search">
+    <hr class="separation">
+    <div style="margin-top:20px;"><h3>Popular Searches</h3></div>
+    <div class="pop-search">
+      <ul>
+        <li><strong>Products</strong>&nbsp;&nbsp;:Bottle gourd&nbsp;| Lady finger&nbsp;|Potato&nbsp;|Dalchini&nbsp;
+          |Fennel seeds&nbsp;|Blueberry&nbsp;|  Papaya&nbsp;|Dragon fruit</li>
+
+          <li><strong>Brands</strong>&nbsp;&nbsp;:Yakult&nbsp;| My Muse&nbsp;|Aashirvaad Atta&nbsp;|Too Yumm&nbsp;
+            |Lays&nbsp;|Figaro Olive Oil&nbsp;|  Nadini Milk&nbsp;|Amul&nbsp;|Mother Dairy Near Me&nbsp;|Fortune Oil</li>
+
+            <li><strong>Categories</strong>&nbsp;&nbsp;:Grocery&nbsp;|Curd&nbsp;|Hukka flavour&nbsp;|Paan shop near me&nbsp;
+              |Egg price&nbsp;|Cheese slice&nbsp;|  Fresh fruits &nbsp;|Fresh vagetables&nbsp;|Refined Oil&nbsp;|Butter price
+              &nbsp;|Paneer price</li>
+      </ul>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="categories">
+    <div><h3>Categories</h3></div>
+    <div>
+    <table>
+      <tbody>
+        <tr>
+          <td>Fruits & Vegetables</td>
+        <td>Atta, Rice, Oil & Dals</td>
+        <td>Masala & Dry Fruits</td>
+        <td>Sweet Cravings</td>
+        <td>Frozen Food & Ice Creams</td>
+      </tr>
+       
+
+        <tr><td>Baby Food</td>
+          <td>Dairy, Bread & Eggs</td>
+          <td>Cold Drinks & Juices</td>
+          <td>Munchies</td>
+          <td>Meats, Fish & Eggs</td></tr>
+
+          <tr><td>Breakfast & Sauces</td>
+            <td> Tea, Coffee & More</td>
+            <td>Biscuits</td>
+            <td>Makeup & Beauty</td>
+            <td>Bath & Body</td></tr>
+
+        <tr><td>Cleaning Essentials</td>
+          <td>Home Needs</td>
+          <td>Electricals & Accessories</td>
+          <td>Hygiene & Grooming</td>
+          <td>Health & Baby Care</td></tr>
+
+        <tr><td>Homegrown Brands</td>
+          <td>Paan Corner</td>
+         
+
+      </tbody>
+    </table>
+  </div>
+  <hr class="separation">
+  </div>
+</section>
+
+  
+
+<footer>
+  
+  <div class="footer">
+    
+   <div class="first">
+
+    <ul>
+      <li><img src="zepto.svg"
+      alt="logo2"/></li>
+      <li>
+        <i class="fab fa-instagram" aria-hidden="true"></i>
+        <i class="fab fa-twitter" aria-hidden="true"></i>
+        <i class="fab fa-facebook-f" aria-hidden="true"></i>
+        <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+      </li>
+      <li>© KiranaKart Technologies Private Limited</li>
+    </ul>
+   </div>
+
+   <div class="mid">
+    <ul>
+      <li>Home</li>
+      <li>Delivery Areas</li>
+      <li>Careers</li>
+      <li>Customer Support</li>
+      <li>Press</li>
+    </ul>
+   </div>
+   
+   <div class="mid">
+    <ul>
+      <li>Privacy Policy</li>
+      <li>Terms of Use</li>
+      <li>Responsible Disclosure Policy</li>
+      <li>Mojo - a Zepto Blog</li>
+    </ul>
+   </div>
+
+   <div class="download">
+    <ul>
+    <li>Download App</li>
+    <li><button><img src="zepto/playstore.svg">&nbsp;&nbsp;Get it on play store</button></li>
+    <li><button><img src="zepto/apple.svg">&nbsp;&nbsp;Get it on app store</button></li>
+  </ul>
+   </div>
+  </div>
+</footer>
+</body>
+
+</html>
