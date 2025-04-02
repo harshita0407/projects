@@ -25,7 +25,7 @@
   
   
   .logo {
-    padding-left: 40px;
+    padding-left: 30px;
     padding-top: 12px;
   }
   
@@ -45,7 +45,7 @@
   }
   
   .location label {
-    font-size: 14px;
+    font-size: 13px;
     color: #333;
     font-weight: 550;
   }
@@ -60,19 +60,20 @@
     align-items: center;
     background: #fff;
     border-radius: 10px;
-    padding: 3px 10px;
+    padding: 1px 10px;
     width: 50%;
-    max-width: 670px;
-    box-shadow: 1px 1px 3px #d9d9d9;
+    /* max-width: 670px; */
+    box-shadow: 1px 1px 2px #d9d9d9;
     border: 1px solid #d9d9d9;
+    margin-bottom: 10px;
   }
   
   .search-bar input {
     border: none;
     outline: none;
-    padding: 5px;
-    width: 100%;
-    font-size: 16px;
+    padding: 1px 20px  ;
+    width: 90%;
+    font-size: 14px;
   
   }
   
@@ -111,7 +112,7 @@
     box-shadow: 1px 1px 6px 1px #d9d9d9;
     border: none;
     cursor: pointer;
-  
+    margin-bottom: 15px;
   }
   
   .ss {
@@ -119,17 +120,18 @@
   }
   
   .main {
-    margin: 80.4px 35px 0 35px;
-    /* top: 14.1%;*/
+     margin: 85.4px 35px 0 35px;
+     width: 94.8%;
   } 
   
+  /* coffee */
   .Coff {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 96%;
     margin-left: 44px;
-    margin-top: 40px;
+   
   }
   
   .Coff h4 {
@@ -151,7 +153,7 @@
   }
   
   .slides {
-   margin: 20px 50px 0 65px;
+   margin: 10px 50px 0 65px;
   }
   
   .slider {
@@ -160,7 +162,7 @@
     /* padding-bottom: 10px; */
     gap: 16px;
     scroll-behavior: smooth;
-  
+    
   }
   
   .slide {
@@ -186,21 +188,16 @@
   }
   
   
-  
-  .slide h5 {
-    padding-top: 4px;
-  }
-  
   .price {
     color: black;
     font-size: 15px;
     font-weight: 550;
-    padding-top: 20px;
+    padding-top: 10px;
   }
   
   .ml {
     font-size: 14px;
-    padding-top: 20px;
+    padding-top: 10px;
   }
   
   del {
@@ -228,7 +225,6 @@
     align-items: center;
     width: 96%;
     margin-left: 44px;
-    margin-top: 70px;
   }
   
   .Elevate h4 {
@@ -250,7 +246,7 @@
   }
   
   .slides1 {
-    margin: 20px 50px 0 65px;
+    margin: 10px 50px 0 65px;
   }
   
   .slider1 {
@@ -279,10 +275,6 @@
   
   .slide1 img:hover {
     transform: scale(1.1);
-  }
-  
-  .slide1 h5 {
-    padding-top: 4px;
   }
   
   .price1 {
@@ -315,18 +307,12 @@
   
   .section-1 {
     width: 97%;
-    /*height: 112px; */
-    /* background-color: white; */
-    /* box-shadow: 0 1px 1px 0 rgb(0 0 0 / 16%); */
     margin-top: 25px;
   
   
   }
   
   .section-1-container {
-    /* width: 1280px; */
-    /* margin: 0 auto; */
-    /* height: 100%; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -335,9 +321,7 @@
   }
   
   .section-1-item {
-    /* height: 100%; */
     display: flex;
-    /* flex-direction: column; */
     align-items: center;
     justify-content: center;
   }
@@ -349,7 +333,7 @@
   }
   
   .home {
-  
+   
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -621,7 +605,7 @@
   /* banners */
   .slider-container {
     width: 100%;
-    height: 300px;
+    /* height: 300px; */
     /* overflow: hidden; */
     margin-top: 70px;
     margin-bottom: 90px;
@@ -638,6 +622,7 @@
     text-align: center;
     margin: 2% 12%;
     letter-spacing: 1px;
+    flex-wrap: wrap;
   
   }
   
@@ -671,7 +656,7 @@
     margin: 0 35px;
     margin-left: 40px;
     margin-top: 30px;
-  
+    
     width: 97%;
   }
   
@@ -682,6 +667,7 @@
   .pop-search {
     font-size: 14px;
     padding-top: 20px;
+    
   }
   
   .pop-search li {
@@ -702,7 +688,7 @@
   
   .categories {
     margin: 20px 37px;
-  
+    
     margin-top: 13px;
     width: 97%;
   }
@@ -764,5 +750,57 @@
     width: 97%;
     border: none;
   }
+  .content-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+  }
   
+  @media (max-width: 768px) {
+    .how-it-works {
+      flex-direction: column;
+      align-items: center;
+      overflow-x: hidden;
+    }
   
+    .card {
+      width: 90%;
+      max-width: 300px;
+    }
+    .content-wrapper {
+      flex-direction: column;
+    }
+  
+    .Search {
+      order: 2;
+    }
+  
+    .slider-container {
+      order: 1;
+    }
+    
+    .nav ul{
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    
+    .logo{
+      padding-left: 5px;
+      margin-left: 20px;
+    }
+
+    header{
+      padding: 10px 10px;
+    }
+
+  }
+
+  @media (max-width: 910px) {
+    header{
+      height: 70px;
+    }
+    
+
+
+  }
